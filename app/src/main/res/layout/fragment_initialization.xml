@@ -1,0 +1,53 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:id="@+id/frag_init_container_form"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:text="@string/frag_init_title"
+                style="@style/AWRDemo_Title" />
+            <EditText
+                android:hint="@string/et_hint_bday"
+                android:id="@+id/frag_init_et_bday"
+                android:maxLength="10"
+                android:singleLine="true"
+                style="@style/AWRDemo_EditText" />
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp"
+                android:id="@+id/frag_init_genre"
+                android:checkedButton="@+id/frag_init_radio_male"
+                android:layout_gravity="center_horizontal">
+                <RadioButton
+                    android:text="@string/app_gender_male"
+                    android:id="@+id/frag_init_radio_male"
+                    style="@style/AWRDemo_RadioButton" />
+                <RadioButton
+                    android:text="@string/app_gender_female"
+                    android:id="@+id/frag_init_radio_female"
+                    style="@style/AWRDemo_RadioButton" />
+            </RadioGroup>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/frag_init_btn_send"
+                android:text="@string/app_send"/>
+        </LinearLayout>
+    </ScrollView>
+    <ProgressBar
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/frag_init_loader"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        style="?android:attr/progressBarStyleLarge"/>
+</FrameLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AWR CC Demo</string>
+
+    <string name="frag_init_title">REGISTRATION</string>
+
+    <string name="et_hint_bday">Birthday (MM/DD/YYYY)</string>
+
+    <string name="app_gender_male">Male</string>
+    <string name="app_gender_female">Female</string>
+    <string name="app_gender_unspecified">Unspecified</string>
+    <string name="app_send">Send</string>
+
+    <string name="frag_home_title">Congratulations!</string>
+    <string name="frag_home_desc">The SDK has been successfully configured and it can start looking for context-aware advertising</string>
+</resources>

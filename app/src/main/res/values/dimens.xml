@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="app_keyline_small">12dp</dimen>
+    <dimen name="app_keyline_big">60dp</dimen>
+    <dimen name="app_keyline_medium">20dp</dimen>
+</resources>

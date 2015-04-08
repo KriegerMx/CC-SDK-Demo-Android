@@ -1,0 +1,20 @@
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:1.0.0'
+    }
+}
+
+allprojects {
+    repositories {
+
+        //SDK's library location
+        maven {
+            url "http://krieger.mx:8081/artifactory/public-krieger/"
+        }
+
+        jcenter()
+    }
+}
